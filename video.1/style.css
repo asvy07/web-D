@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(97, 56, 56, 0.822);
+    color: rgba(255, 255, 255, 0.437);
+    font-display: swap;
+    font-size: xx-large;
+    flex-direction: row-reverse;
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,8 @@
+/* style1.css */
+.text-blue { color: rgba(0, 0, 255, 0.326); }  
+.text-red  { color: rgba(255, 0, 0, 0.447); }  
+.text-big  { font-size: 30px; }
+body{
+    background-color: rgba(0, 95, 95, 0.167);
+}
+.text-pink { color: rgba(209, 0, 35, 0.748)}
