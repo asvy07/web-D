@@ -1,35 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Display Property </title>
+    <title>Document</title>
     <style>
-        *{
-            margin:0;
-            padding:0;
+        * {
+            margin: 0;
+            padding: 0;
         }
-         .box {
-            border: 5px solid blue;
-            display: inline-block;
-            width: 400px;
-            padding:45px;
-            margin: 31px; 
+
+        html{
+            font-size: 12px;
         }
-        .box1{
-            display: none;
-            /* visibility: hidden; */
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
+        .container > div{
+            font-size: 2em; 
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont{ 
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
         }
     </style>
 </head>
-<body>
-    
-    <div class="box box1">
-        I am a box
-    </div>
-    <div class="box">also a nice box</div>
 
-    <span>I am a good</span>
-    <span>boy</span>
+<body>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units -->
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum necessitatibus deleniti repudiandae sint eum! Ratione a accusantium amet nam tenetur.</div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis voluptas est aliquam, dolores rem laudantium nulla maiores odio fugit, totam voluptatem saepe!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum repellat perspiciatis atque maxime esse nam aperiam culpa corporis voluptatem ipsum molestiae, est optio doloremque accusantium omnis, aut nesciunt voluptate ut eos. Dicta facere vero pariatur quos porro doloribus, quas, cupiditate quasi officia, aperiam reiciendis non corporis provident autem? Qui, cupiditate porro. Debitis blanditiis tempore magnam nisi modi architecto omnis fugiat quas quidem, distinctio, odit aut doloremque iusto fuga cupiditate et necessitatibus minus est, incidunt saepe inventore. Quis quasi suscipit ratione praesentium, qui consectetur, cupiditate repudiandae consequuntur mollitia voluptates eum provident veritatis facilis neque deleniti eveniet repellat rem omnis aliquid! Ipsam alias rem dolor fugit saepe unde obcaecati minima sit? Quaerat sequi dolorem ab aut, dolorum pariatur porro nulla id dolore reiciendis quisquam cum sit libero facere architecto numquam similique sed vitae deleniti praesentium sint? Ea perferendis expedita ab iure laboriosam. Fugiat sapiente aliquid vel voluptatem nihil, totam, atque maxime corrupti labore magni necessitatibus molestiae voluptatibus, mollitia dolorum unde. Delectus excepturi vitae fugiat eos corrupti, non ullam architecto sapiente, aspernatur nesciunt assumenda, repellendus beatae illo amet cum sit quae. Architecto placeat cumque iste perspiciatis veniam deserunt quaerat veritatis! Exercitationem nobis placeat aliquid? Unde, repellat. Sunt officia minus necessitatibus deserunt soluta aliquam harum, voluptate commodi tenetur iste odit? Voluptates laborum, molestiae ad molestias incidunt aspernatur hic sint dolore optio asperiores magni vero! Ipsum, totam.
+        
+        </div>
+       
+
+
+    <div class="mycont">
+        I am another container
+    </div>
 </body>
+
 </html>
