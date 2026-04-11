@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercise Card</title>
+
+<style>
+body {
+    background: #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+/* Card */
+.card {
+    width: 320px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Image */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Content */
+.content {
+    padding: 15px;
+}
+
+/* Tags */
+.tags {
+    margin-bottom: 10px;
+}
+
+.tags span {
+    background: #f1f1f1;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* Title */
+.content h2 {
+    margin: 8px 0;
+}
+
+/* Text */
+.content p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button */
+.btn {
+    display: block;
+    margin: 15px auto 5px;
+    padding: 8px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2f4258;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+    <img src="https://imgs.search.brave.com/WF-MjCD_UbEhQOU21AfRPrqCVvMo99S_MEo3NodgUe4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NTc0NTYxNzAtMGNm/NGY0ZDBkMzYyP2Zt/PWpwZyZxPTYwJnc9/MzAwMCZhdXRvPWZv/cm1hdCZmaXQ9Y3Jv/cCZpeGxpYj1yYi00/LjEuMCZpeGlkPU0z/d3hNakEzZkRCOE1I/eHpaV0Z5WTJoOE1u/eDhiR0ZyWlh4bGJu/d3dmSHd3Zkh4OE1B/PT0">
+
+    <div class="content">
+        <div class="tags">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <h2>Beautiful Nature</h2>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, quas? Asperiores, libero.
+        </p>
+
+        <button class="btn">Read More</button>
+    </div>
+</div>
+
+</body>
+</html>
