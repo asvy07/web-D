@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS multicolor website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+    </style>
+
+    <style>
+        :root{
+        --primary-color: rgba(140, 95, 181, 0.862);
+        --text-color: white;
+        --secondary-color:var(rgba(202, 177, 226, 0.718));
+        }
+        body{
+            background-color: var(--secondary-color);
+        }
+        ul li {
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+            color: var(--text-color);
+        }
+        ul li a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        nav {
+            background-color: rgba(140, 95, 181, 0.862);
+            padding: 20px 0px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home </a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>
