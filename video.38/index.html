@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            height: 100vh;
+            /* margin: 20px; */
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            align-content: flex-start;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            flex-flow: row wrap;
+            /* gap: 30px;
+            row-gap: 40px;
+            column-gap: 10px;  */
+            gap: 40px 10px;
+
+
+        }
+
+        .item {
+            height: 52px;
+            width: 102px;
+            background-color: rgb(213, 213, 41);
+            border: 2px solid black;
+            flex-grow: 1;
+        }
+        .order-1{
+            order: 1;
+        }
+        .order-2{
+            order: 2;
+        }
+        .order-3{
+            order: 3;
+        }
+        .item1{
+            flex-grow: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="item1 , item" , order-3 > 1 adivivv </div>
+            <div class="item">2 vivek</div>
+            <div class="item">3 mummy</div>
+            <div class="item">4 gungun </div>
+            <div class="item order-1">5 medusa</div>
+
+
+
+
+        </div>
+    </main>
+</body>
+
+</html>
