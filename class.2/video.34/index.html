@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        
+        img{
+            float:left;
+        }
+
+        .card{
+            border: 2px solid red;
+        }
+
+        .card:nth-child(3){
+            background-color: rgba(111, 169, 169, 0.704);
+            clear:right;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://media.istockphoto.com/id/928826678/photo/two-men-relaxing-and-fishing.jpg?s=2048x2048&w=is&k=20&c=fSG5LG9kxLNzjG9_YI1bXdz3-gD7UW2e2bd9arD5Vm8=" alt="" width="230">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt officia assumenda quis obcaecati, quibusdam iure ut consequatur libero culpa?</p>
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae ea dignissimos vero voluptas tempora ratione mollitia tempore, nihil non id est omnis accusamus beatae perspiciatis maiores sunt culpa atque quibusdam molestiae architecto libero dolor corrupti? Nostrum consequuntur quidem corporis pariatur in, a saepe eveniet impedit modi blanditiis voluptatibus similique expedita voluptate incidunt nihil beatae tenetur cupiditate laborum! Accusamus aliquid consequuntur adipisci enim, voluptatum ab cupiditate excepturi ullam commodi iure. Quod similique assumenda quis molestiae ex consequuntur, amet nesciunt nostrum veritatis iusto incidunt laborum minus doloribus esse quo ullam quas. Ab in molestias incidunt a. Harum perspiciatis aperiam voluptatem? Fugit voluptatum ducimus distinctio autem, facere labore, amet temporibus eligendi ut repudiandae nostrum officia doloremque obcaecati, quia earum ea aut dolorum eveniet accusantium exercitationem. Obcaecati laudantium temporibus ducimus minus libero consequatur pariatur, corporis quam repudiandae quaerat cupiditate non rem perferendis quidem inventore accusamus quae maiores dolores a eius ipsa deleniti culpa.</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,140 @@
+<<<<<<< HEAD
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Location Tracker</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #368aa6;
+        margin: 20px;
+    }
+    .container {
+        background-color: white;
+        padding: 20px;
+        max-width: 400px;
+        margin: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .item {
+        margin-bottom: 15px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+    }
+    button {
+        padding: 10px 15px;
+        background-color: rgb(21, 79, 171);
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: rgb(62, 98, 155);
+    }
+    .output {
+        margin-top: 20px;
+    }
+    .output div {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h2>📍 Live Location Tracker</h2>
+    <div class="item">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+    </div>
+    <div class="item">
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Enter your gaanv " />
+    </div>
+    <div class="item">
+        <label for="country">Country:</label>
+        <input type="text" id="country" placeholder="Enter your country" />
+    </div>
+    <div class="item">
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" placeholder="Enter your pincode" />
+    </div>
+    <button onclick="saveLocation()">Save Location</button>
+    <div class="output" id="output"></div>
+</div>
+
+<script>
+    function saveLocation() {
+        const name = document.getElementById('name').value;
+        const city = document.getElementById('city').value;
+        const country = document.getElementById('country').value;
+        const pincode = document.getElementById('pincode').value;
+
+        const outputDiv = document.getElementById('output');
+
+        function getlocation(){
+
+        }
+
+        outputDiv.innerHTML = `
+            <div><strong>Name:</strong> ${name}</div>
+            <div><strong>City:</strong> ${city}</div>
+            <div><strong>Country:</strong> ${country}</div>
+            <div><strong>Pincode:</strong> ${pincode}</div>
+        `;
+    }
+</script>
+
+</body>
+</html> -->
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property </title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+         .box {
+            border: 5px solid blue;
+            display: inline-block;
+            width: 400px;
+            padding:45px;
+            margin: 31px; 
+        }
+        .box1{
+            display: none;
+            /* visibility: hidden; */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="box box1">
+        I am a box
+    </div>
+    <div class="box">also a nice box</div>
+
+    <span>I am a good</span>
+    <span>boy</span>
+</body>
+</html>
+>>>>>>> b2263766f61ec079e2517b746e527682c818e5ce
